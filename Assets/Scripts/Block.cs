@@ -8,8 +8,9 @@ public class Block : MonoBehaviour
     [SerializeField] private SpriteRenderer _renderer;
 
 
-   public void Init(BlockType type){
+    public void Init(BlockType type)
+    {
         Value = type.value;
         _renderer.color = type.color;
-   }
+    }
 }
