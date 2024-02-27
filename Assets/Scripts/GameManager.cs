@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private int _width = 4;
     [SerializeField] private int _height = 4;
+    [SerializeField] private Node _nodePrefab;
+    
 
     void Start() {
         GenerateGrid();
@@ -18,7 +20,7 @@ public class GameManager : MonoBehaviour
         {
             for (int y = 0; y < _height; y++)
             {
-                throw new NotImplementedException();
+                var node = Instantiate(_nodePrefab, new  Vector2(x,y), Quaternion.identity);
             }
         }
     }
