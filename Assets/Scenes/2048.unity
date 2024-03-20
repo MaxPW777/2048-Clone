@@ -199,6 +199,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 615657867105413674, guid: 1b0234f1edce0a04682b8752d2c6c0cc, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1671074576838969329, guid: 1b0234f1edce0a04682b8752d2c6c0cc, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -255,7 +259,8 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 4.15
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1260094486521307402, guid: 1b0234f1edce0a04682b8752d2c6c0cc, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
